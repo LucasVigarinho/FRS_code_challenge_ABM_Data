@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ProcessXMLController_question3 {
 
+
     @GetMapping(path = "/test")
     public ResponseEntity getTest() {
             return ResponseEntity.status(200).body ("Status: 0");
@@ -18,7 +19,22 @@ public class ProcessXMLController_question3 {
 
 //        return "Test response";
     }
-
+    /** TO BE PAST ON POSTMAN. - (POST) - Body (raw) - localhost:8080/test */
+    /** <InputDocument>
+     <DeclarationList>
+     <Declaration Command="DEFAULT" Version="5.13">
+     <DeclarationHeader>
+     <Jurisdiction>IE</Jurisdiction>
+     <CWProcedure>IMPORT</CWProcedure>
+     <DeclarationDestination>CUSTOMSWAREIE</DeclarationDestination>
+     <DocumentRef>71Q0019681</DocumentRef>
+     <SiteID>DUB</SiteID>
+     <AccountCode>G0779837</AccountCode>
+     </DeclarationHeader>
+     </Declaration>
+     </DeclarationList>
+     </InputDocument>
+     */
     @PostMapping(path = "/test")
     public ResponseEntity getTest(@RequestBody String body) {
 
