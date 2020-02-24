@@ -1,9 +1,9 @@
 # FRS_code_challenge_ABM_Data
 Developer Technical Questions
 
-# All the exercises were coded using Eclipse and IntelliJ IDEAS;
+All the exercises were coded using Eclipse and IntelliJ IDEAS;
 
-# EXERCISE 1 - JAVA - JUnit4
+EXERCISE 1 - JAVA - JUnit4
 1.	Taking the following EDIFACT message text, write some code to parse out the all the LOC segments and populate an array with the 2nd and 3rd element of each segment.  
 
 Note:  the ‘+’ is an element delimiter
@@ -21,15 +21,15 @@ DTM+9:20090527:102'
 DTM+268:20090626:102'
 DTM+182:20090527:102'
 
-# SOLUTION EXERCISE 1: https://github.com/LucasVigarinho/FRS_code_challenge_ABM_Data/blob/c70c463c4ea5dab33f3c35b97295b2472702003c/test_interview/src/main/java/com/test_frs_abm/test_interview/service/Frc_Abm_Java_XML_Question1.java
+SOLUTION EXERCISE 1: https://github.com/LucasVigarinho/FRS_code_challenge_ABM_Data/blob/c70c463c4ea5dab33f3c35b97295b2472702003c/test_interview/src/main/java/com/test_frs_abm/test_interview/service/Frc_Abm_Java_XML_Question1.java
 
-# TEST EXERCISE 1: https://github.com/LucasVigarinho/FRS_code_challenge_ABM_Data/blob/c70c463c4ea5dab33f3c35b97295b2472702003c/test_interview/src/test/java/com/test_frs_abm/test_interview/service/Frc_Abm_Java_XMLQuestion1Test.java
+TEST EXERCISE 1: https://github.com/LucasVigarinho/FRS_code_challenge_ABM_Data/blob/c70c463c4ea5dab33f3c35b97295b2472702003c/test_interview/src/test/java/com/test_frs_abm/test_interview/service/Frc_Abm_Java_XMLQuestion1Test.java
 
 
                                             ##############################################
 
 
-# EXERCISE 2 - JAVA - JUnit 
+EXERCISE 2 - JAVA - JUnit 
 2.	Taking the following XML document, write code to extract the RefText values for the following RefCodes:   ‘MWB’, ‘TRV’ and ‘CAR’
 
 <InputDocument>
@@ -85,7 +85,7 @@ https://github.com/LucasVigarinho/FRS_code_challenge_ABM_Data/blob/c70c463c4ea5d
                                             ##############################################
 
 
-# EXERCISE 3 - JAVA - JUnit - SPRING BOOT - MAVEN - POSTMAN - XML
+EXERCISE 3 - JAVA - JUnit - SPRING BOOT - MAVEN - POSTMAN - XML
 
 3.	Write a webservice that accepts the following XML document as the payload:
 
@@ -114,14 +114,14 @@ b.	If the Declararation’s Command <> ‘DEFAULT’ then return ‘-1’ – wh
 c.	If the SiteID <> ‘DUB’ then return ‘-2’ – invalid Site specified.
 
 
-# SOLUTION EXERCISE 3: 
+SOLUTION EXERCISE 3: 
 https://github.com/LucasVigarinho/FRS_code_challenge_ABM_Data/blob/c70c463c4ea5dab33f3c35b97295b2472702003c/test_interview/src/main/java/com/test_frs_abm/test_interview/service/ProcessXMLService_Question3.java
 
-# APLICATION FOR EXERCISE 3 SOLUTION
+APLICATION FOR EXERCISE 3 SOLUTION
 https://github.com/LucasVigarinho/FRS_code_challenge_ABM_Data/blob/c70c463c4ea5dab33f3c35b97295b2472702003c/test_interview/src/main/java/com/test_frs_abm/test_interview/TestInterviewApplication_Question3.java
 
-# MODIFICATED pom.xml, IN ORDER TO USE JUnit 4 AND THE SPRING BOOT FRAMEWORK
+MODIFICATED pom.xml, IN ORDER TO USE JUnit 4 AND THE SPRING BOOT FRAMEWORK
 https://github.com/LucasVigarinho/FRS_code_challenge_ABM_Data/blob/c70c463c4ea5dab33f3c35b97295b2472702003c/test_interview/pom.xml
 
-# TEST EXERCISE 3:
+TEST EXERCISE 3:
 https://github.com/LucasVigarinho/FRS_code_challenge_ABM_Data/blob/c70c463c4ea5dab33f3c35b97295b2472702003c/test_interview/src/test/java/com/test_frs_abm/test_interview/service/ProcessXMLServiceQuestion3Test.java
