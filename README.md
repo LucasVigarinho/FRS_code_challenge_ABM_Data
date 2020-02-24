@@ -127,5 +127,6 @@ TEST EXERCISE 3:
 https://github.com/LucasVigarinho/FRS_code_challenge_ABM_Data/blob/c70c463c4ea5dab33f3c35b97295b2472702003c/test_interview/src/test/java/com/test_frs_abm/test_interview/service/ProcessXMLServiceQuestion3Test.java
 
 
-MODIFYING THE ProcessXMLController_question3 CLASS, GET and POST on POSTMAN WILL BE LIKE BELOW;
+MODIFYING THE ProcessXMLController_question3 CLASS (link below), GET and POST on POSTMAN WILL BE PROPERLY TEST FOR a, b and c;
+https://github.com/LucasVigarinho/FRS_code_challenge_ABM_Data/blob/master/test_interview/src/main/java/com/test_frs_abm/test_interview/controller/ProcessXMLController_question3.java
 
