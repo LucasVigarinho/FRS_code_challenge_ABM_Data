@@ -76,9 +76,9 @@ EXERCISE 2 - JAVA - JUnit
 </DeclarationList>
 </InputDocument>
 
-# SOLUTION EXERCISE 2: https://github.com/LucasVigarinho/FRS_code_challenge_ABM_Data/blob/c70c463c4ea5dab33f3c35b97295b2472702003c/test_interview/src/main/java/com/test_frs_abm/test_interview/service/MyDomParser_Question2.java
+SOLUTION EXERCISE 2: https://github.com/LucasVigarinho/FRS_code_challenge_ABM_Data/blob/c70c463c4ea5dab33f3c35b97295b2472702003c/test_interview/src/main/java/com/test_frs_abm/test_interview/service/MyDomParser_Question2.java
 
-# TEST EXERCISE 2:
+TEST EXERCISE 2:
 https://github.com/LucasVigarinho/FRS_code_challenge_ABM_Data/blob/c70c463c4ea5dab33f3c35b97295b2472702003c/test_interview/src/test/java/com/test_frs_abm/test_interview/service/MyDomParserQuestion2Test.java
 
 
